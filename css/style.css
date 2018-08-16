@@ -1,0 +1,94 @@
+body {
+	margin: 0;
+	font-family: Tahoma, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+}
+
+input {
+	margin-bottom: 10px;
+	outline: 1px solid #ccc;
+	outline-offset: 0;
+	border: none;
+	border-left: 4px solid transparent;
+	padding: 20px;
+	width: 100%;
+	font-size: 16px;
+	color: #000;
+	box-sizing: border-box;
+}
+
+.days {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.days__block {
+	flex-grow: 1;
+	padding: 10px;
+	background-color: #ccc;
+	text-align: center;
+}
+
+.days__block--visited {
+	background-color: rgba(142, 0, 164, .5);
+}
+
+.days__title {
+	margin: 0;
+	font-size: 18px;
+}
+
+.days__day {
+	display: block;
+	color: #3d5ccf;
+	text-decoration: none;
+}
+
+.days__desc, .days__author, .days__count {
+	margin: 0;
+}
+
+.button-primary {
+	border: none;
+	width: 100%;
+	height: 40px;
+	font-size: 16px;
+	font-weight: 700;
+	background-color: #e1e129;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+}
+
+.modal {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	padding: 40px 20px;
+	max-width: 100%;
+	width: 500px;
+	background-color: #fff;
+	visibility: hidden;
+	opacity: 0;
+	transform: translate(-50%, -50%);
+	z-index: 4;
+	transition: all .3s;
+}
+
+.overlay {
+	position: fixed;
+	z-index: 3;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, .5);
+	visibility: hidden;
+	opacity: 0;
+	transition: all .3s;
+}
+
+.show {
+	opacity: 1;
+	visibility: visible;
+}

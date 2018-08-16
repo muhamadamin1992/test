@@ -1,0 +1,58 @@
+{
+	"events": [
+		{
+			"date": "17 август 2018",
+			"title": "Event",
+			"desc": "Lorem Ipsum",
+			"author": "Admin"
+		},
+		{
+			"date": "17 август 2018",
+			"title": "Event2",
+			"desc": "Lorem Ipsum3",
+			"author": "Admin"
+		},
+		{
+			"date": "18 август 2018",
+			"title": "Event",
+			"desc": "Lorem Ipsum",
+			"author": "Admin"
+		},
+		{
+			"date": "18 август 2018",
+			"title": "Event3",
+			"desc": "Lorem Ipsum",
+			"author": "Admin"
+		},
+		{
+			"date": "18 август 2018",
+			"title": "Event",
+			"desc": "Lorem Ipsum",
+			"author": "Вася Пупкин"
+		},
+		{
+			"date": "17 август 2018",
+			"title": "Event4",
+			"desc": "Lorem Ipsum",
+			"author": "Admin"
+		},
+		{
+			"date": "17 август 2018",
+			"title": "Event5",
+			"desc": "Lorem Ipsum",
+			"author": "John Doe"
+		},
+		{
+			"date": "17 март 2018",
+			"title": "Event5",
+			"desc": "Lorem Ipsum",
+			"author": "Admin"
+		},
+		{
+			"date": "17 сентябрь 2018",
+			"title": "Event5",
+			"desc": "Lorem Ipsum",
+			"author": "Admin"
+		}
+	]
+}
